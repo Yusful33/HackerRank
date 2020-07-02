@@ -1,0 +1,8 @@
+def reverse_words_order_and_swap_cases(sentence):
+    # Write your code here
+    word1 = sentence.split(' ')  
+    reverse_sentence = ' '.join(reversed(word1))  
+    word2 = list(reverse_sentence)
+    new = "".join(word2)
+    test = new.swapcase()
+    return test
